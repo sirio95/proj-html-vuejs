@@ -20,6 +20,6 @@ export default{
     
 </template>
 
-<style lang="sass">
+<style lang="scss">
 
 </style>

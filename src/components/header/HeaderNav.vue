@@ -4,7 +4,6 @@ export default{
     data(){
         return{
             store,
-            logo: '../../assets/construction_logo_retina.png',
         }
     }
 }
@@ -14,7 +13,7 @@ export default{
 <template>
     <section>
         <div id="logo">
-            <img :src="logo" alt="logo avada costruction">
+            <img src="../../assets/construction_logo_retina.png" alt="logo avada costruction">
         </div>
         <ul class="navbar">
             <li v-for="(element, index) in store.nav" :key="index" :class="element.status"><a :href="element.link">{{ element.name }}</a></li>
@@ -23,6 +22,14 @@ export default{
     </section>
 </template>
 
-<style lang="sass">
-
+<style lang="scss" scoped>
+    section{
+        width: 1280px;
+        height: 100px;
+        display:flex;
+            .navbar{
+                display:flex;
+            }
+    }
+    
 </style>
