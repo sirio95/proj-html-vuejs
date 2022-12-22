@@ -23,6 +23,28 @@
                         name: 'exclusive',
                         text: 'Quis autem vel eum iure reprenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.'
                     }
+                ],
+                achievements:[
+                    {
+                        icon: 'fa-solid fa-city',
+                        number: '3534',
+                        name: 'planning application'
+                    },
+                    {
+                        icon: 'fa-regular fa-building',
+                        number: '896',
+                        name: 'completed projects'
+                    },
+                    {
+                        icon: 'fa-solid fa-users',
+                        number: '172',
+                        name: 'trained professionals'
+                    },
+                    {
+                        icon: 'fa-solid fa-globe',
+                        number: '19',
+                        name: 'international offices'
+                    }
                 ]
             }
         }
@@ -44,6 +66,16 @@
                 </li>
             </ul>
         </div>
+    </section>
+        <ul>
+            <li v-for="(element, index) in achievements" :key="index">
+                <font-awesome-icon :icon="element.icon" />
+                <h2>{{ element.number }}</h2>
+                <p>{{ element.name }}</p>
+            </li>
+        </ul>
+    <section>
+
     </section>
 </template>
 
