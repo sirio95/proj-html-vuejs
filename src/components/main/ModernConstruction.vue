@@ -85,9 +85,9 @@
         </div>
     </section>
         
-    <section class="achievements">
+    <section id="achievements">
         <ul>
-            <li v-for="(element, index) in achievements" :key="index">
+            <li v-for="(element, index) in achievements" :key="index" class="achievement">
                 <font-awesome-icon :icon="element.icon" class="achievements_icon" />
                 <h2>{{ element.number }}</h2>
                 <p>{{ element.name }}</p>
@@ -201,6 +201,38 @@
             }
 
 
+    }
+
+    #achievements{
+        width: 100%;
+        height: 350px;
+        background-image: url(/img/home-244125289.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+            ul{
+                display:flex;
+                justify-content: space-around;
+                padding:75px 5em;
+                    .achievement{
+                        list-style: none;
+                        text-align:center;
+                            .achievements_icon{
+                                font-size: 50px;
+                                color: #f9d03f;
+                                margin-bottom: 2rem;
+                            }
+                            h2{
+                                font-size: 40px;
+                                color: #f9d03f;
+                            }
+                            p{
+                                text-transform: uppercase;
+                                color: #fff;
+                                font-size: 15px;
+                                margin: 2rem auto;
+                            }
+                    }
+            }
     }
 
 </style>
