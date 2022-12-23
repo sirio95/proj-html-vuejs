@@ -27,7 +27,7 @@
 <template>
     <section>
         <div v-for="(element, index) in works" :key="index" class="card">
-            <img src="../../assets/{{element.img}}" :alt="element.name" class="card-img" :class="index">
+            <img :src="`/img/${element.img}`" :alt="element.name" class="card-img" :class="index">
             <div class="hover-card" :class="index">
                 <div>
                     <font-awesome-icon icon="fa-solid fa-link" />

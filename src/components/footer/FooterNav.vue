@@ -36,14 +36,14 @@
 <template>
     <section>
         <div>
-            <img src="../../assets/footer-logo.png" alt="logo">
+            <img src="/img/footer-logo.png" alt="logo">
             <p>We are specialists in the construction of unique and exclusive properties. Our work inspires. We pride ourselves on delivering outstanding quality and design for leading clients across the world.</p>
             <button class="btn-light">learn more</button>
         </div>
         <div>
             <h3>latest tweets</h3>
             <div>
-                <img src="../../assets/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="theme fusion logo">
+                <img src="/img/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="theme fusion logo">
                 <div>
                     <p>ThemeFusion</p>
                     <sub>&#64;Theme_Fusion</sub>
@@ -52,7 +52,7 @@
             </div>
             <div>
                 <p>Do you need sublime WordPress hosting for your next website? Take advantage of exclusive partner offers that we have secured just for you, &amp; launch your site in second with <a href="#">&#35;avada</a> on WP Engine hosting &amp; get 30&percnt; Off this Black Friday <a href="#">bit.ly/3kjLLE2&#35;BlackFriday2020</a></p>
-                <img src="../../assets/En2TRxLW4AEiWUN.jpeg" alt="offerta wpengine">
+                <img src="/img/En2TRxLW4AEiWUN.jpeg" alt="offerta wpengine">
                 <div>
                     <span>
                         <font-awesome-icon icon="fa-regular fa-heart" />
@@ -73,7 +73,7 @@
         </div>
         <div>
             <h3>find us</h3>
-            <img src="../../assets/construction_map_pin.png-Notti" alt="sede società">
+            <img src="/img/construction_map_pin.png-Notti" alt="sede società">
         </div>
     </section>
 </template>

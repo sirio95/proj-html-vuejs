@@ -39,7 +39,7 @@
         <div>
             <div v-for="(element, index) in articles" :key="index">
                 <div>
-                    <img src="../../assets/{{element.img}}" :alt="element.title" class="card-img" :class="index">
+                    <img :src="`/img/${element.img}`" :alt="element.title" class="card-img" :class="index">
                     <div class="img-hover" :class="index">
                         <div>
                             <font-awesome-icon icon="fa-solid fa-link" />
