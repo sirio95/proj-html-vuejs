@@ -141,6 +141,7 @@
                 margin: 3rem 1rem;
                 display:flex;
                 justify-content: space-around;
+                cursor:pointer;
                 .light_line{
                     height: 2px;
                     width:20%;

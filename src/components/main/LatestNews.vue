@@ -58,10 +58,10 @@
                 </div> 
             </div>
         </div>
-        <div>
-            <div class="bar"></div>
+        <div class="more">
+            <div class="light_line"></div>
             View More
-            <div class="bar"></div>
+            <div class="light_line"></div>
         </div>
     </section>
 </template>
@@ -168,6 +168,20 @@
 
                 }
         }
+        .more{
+            font-size: 20px;
+            margin: 3rem 1rem;
+            display:flex;
+            justify-content: space-around;
+            cursor:pointer;
+                .light_line{
+                    height: 2px;
+                    width:20%;
+                    margin: 1rem auto;
+                    background-color: #fed23f;
+                    border-radius: 25px;
+                }
+            }
     }
 
 </style>
