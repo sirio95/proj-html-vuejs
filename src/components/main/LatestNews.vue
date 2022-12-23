@@ -56,6 +56,11 @@
 
             </div>
         </div>
+        <div>
+            <div class="bar"></div>
+            View More
+            <div class="bar"></div>
+        </div>
     </section>
 </template>
 
