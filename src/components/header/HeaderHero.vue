@@ -32,7 +32,7 @@
             #hero{
                 width: 1280px;
                 height:500px;
-                background-image: url("../../assets/home-slider-62528242.jpg");
+                background-image: url("/img/home-slider-62528242.jpg");
                 background-repeat: no-repeat;
                 background-size: contain;
                 

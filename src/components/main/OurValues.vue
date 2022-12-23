@@ -19,7 +19,7 @@
                         text: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
                     },
                     {
-                        icon: '<font-awesome-icon icon="fa-regular fa-lightbulb" />',
+                        icon: 'fa-regular fa-lightbulb',
                         title: 'creative solutions',
                         text: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
                     }
