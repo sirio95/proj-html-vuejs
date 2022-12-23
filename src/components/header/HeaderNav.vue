@@ -24,12 +24,54 @@ export default{
 
 <style lang="scss" scoped>
     section{
-        width: 1280px;
+        width: 100%;
         height: 100px;
         display:flex;
-            .navbar{
-                display:flex;
+        justify-content: space-around;
+
+            #logo{
+                height:100px;
+                    img{
+                        height:100px;
+                    }
             }
+            .navbar{
+                height:100px;
+                display:flex;
+
+                    li{
+                        list-style: none;
+                        margin: 0 2rem;
+                        height: 100px;
+
+                            &:hover{
+                                border-bottom: 4px solid #fed23f;
+                            }
+
+                            a{
+                                text-decoration: none;
+                                text-transform: uppercase;
+                                line-height: 100px;
+                                    &:hover{
+                                        color:#fe6f1d;
+                                    }
+                            }
+                    }
+            }
+            .btn.light{
+                padding: 5px;
+                background-color: #fed23f;
+                height: 2rem;
+                margin: auto 0;
+                border: 0px;
+                cursor: pointer;
+
+                    &:hover{
+                        background-color: #1e1e1e;
+                        color:#fff;
+                    }
+            }
+
     }
     
 </style>

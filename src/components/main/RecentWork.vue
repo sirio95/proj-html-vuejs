@@ -25,7 +25,7 @@
 </script>
 
 <template>
-    <section>
+    <section id="work">
         <div v-for="(element, index) in works" :key="index" class="card">
             <img :src="`/img/${element.img}`" :alt="element.name" class="card-img" :class="index">
             <div class="hover-card" :class="index">
