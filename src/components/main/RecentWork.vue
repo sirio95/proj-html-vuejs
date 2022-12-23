@@ -27,8 +27,8 @@
 <template>
     <section>
         <div v-for="(element, index) in works" :key="index" class="card">
-            <img src="../../assets/{{element.img}}" :alt="element.name">
-            <div class="hover-card">
+            <img src="../../assets/{{element.img}}" :alt="element.name" class="card-img" :class="index">
+            <div class="hover-card" :class="index">
                 <div>
                     <font-awesome-icon icon="fa-solid fa-link" />
                     <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
